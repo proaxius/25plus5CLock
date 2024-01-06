@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "firefox",
+            "name": "http://localhost:3000",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "pathMappings": [
+                {
+                    "url": "webpack://_n_e",
+                    "path": "${workspaceFolder}"
+                }
+            ]
+        }
+    ]
+}
